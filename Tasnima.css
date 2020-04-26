@@ -14,7 +14,7 @@ body
 	
 	background-repeat: no-repeat;
 	background-size: cover;
-    animation:slide 20s infinite;
+    /*animation:slide 20s infinite;*/
 }
 .spoilsTitle
 {
@@ -105,16 +105,3 @@ ul {
 	  display: block;
 	}
   }
- 
- /*
- 1.making it responsive(ul system)
- 2.Styling the text Properly
- 
- =====question========
- 1. css slide or js which one take less time
- 2.different color code
- 3.how does keyframe work
- 4. how to control animation
- 5. why body isn't fll width
- em,vw
- color: #f1f1f1;
