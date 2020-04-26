@@ -58,10 +58,15 @@ ul {
 }
 @keyframes slide
  {
-	 0
+	 0%
 	{
-		background-image:url('bg3.jpg');
+		background-image:url('bg5.jpg');
 	}	
+	 100%
+	 {
+	 background-image:url(bg5.jpg);
+	 }
+	 /*
 	 25%
 	{
 		background-image:url('bg3.jpg');
@@ -90,7 +95,7 @@ ul {
 	{
 		background-image:url('bg2.jpg');
 	}	
-	 
+	 */
 	 
 	 
  }
