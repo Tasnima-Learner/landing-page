@@ -1,0 +1,290 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@Tasnima-Learner
+Learn Git and GitHub without any code!
+
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+Tasnima-Learner /
+landing-page
+
+1
+0
+
+    0
+
+Code
+Issues 0
+Pull requests 0
+Actions
+Projects 0
+Wiki
+Security 0
+Insights
+Settings
+landing-page/index1. html
+@Tasnima-Learner Tasnima-Learner Update index1. html 23c9a59 22 minutes ago
+245 lines (208 sloc) 7.69 KB
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+	<link href="css/style.css" rel="stylesheet">
+	<script src="my.js"></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+	<div class="container-fluid">
+	<a class="navbar-brand" href="#"> <!-- logo er jnno brand class -->
+		Tasnima
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle ="collapse" data-target="#navbarResponsive"> 
+		<span class="navbar-toggler-icon"></span></button>
+		
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#abtme">About Me</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
+	
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#prjct">Projects</a>
+	
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rsrc">Resources</a>
+
+                </li>
+
+				<li class="nav-item">
+						<a class="nav-link" href="#cntct">Contact</a>
+	
+                    </li>
+                    
+				
+
+			</ul>
+
+		</div>
+
+</div>
+</nav>
+<!--Slide-->
+<div class="container-fluid">
+	<div class="row">
+<div class="col-12">
+<img id="im1" src="bg1.jpg" style="width:100%; height: 550px;">
+<i id="r8icn" class="fa fa-angle-right" style="font-size:48px;color:white;transform: translateY(-225px); float: right;"
+ onclick="chng()"></i>
+ <i id="lf8icn" class="fa fa-angle-left" style="font-size:48px;color:white; transform: translateY(-225px); float: left;"
+ onclick="chng2()"></i>
+ <script>
+	var iconn=document.getElementById("lf8icn");
+	iconn.style.visibility="hidden";
+	</script>
+	<p class="bg-light" style="width: 100%;height: 100px;text-align: center; padding:10px; margin: 0; border:1px solid lightgrey; border-top:none;">
+	<b>Nature is a beatiful Creation of Allah.<br>Technogy is a crying need of modern time.<br>Let's utilize technology in a way that nature remains safe for the future </b>
+	</p>
+	</div>
+	</div>
+</div>
+<hr>
+<!--2clom-->
+<div  class="container-fluid">
+<div class="row">
+<div class="col-12 " style="text-align: center;">
+	<h2><b>Assalam 'alaikum.</b><br></h2>
+	<h4>Welcome to my site</h4>
+	<hr>
+</div>
+</div>
+</div>
+
+<div  class="container-fluid">
+<div class="row">
+	<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+	<div class="col-12 ">
+	<h2 style="text-align: center;">About Me</h2>
+	<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+	</div>
+		<div id="abtme" class="col-md-4" >
+		
+	<span class="border border-right-1"></span>
+		<img id="mypic" src="bg3(1).jpg" alt="--sky--">	
+	
+	</div>
+	<div class="col-md-8 bg-light" style="padding:20px";>
+		<p class=""><h4>Myself, Tasnima, a Muslimah and an web developer.</h4> <br>Have done my B.Sc. Engineering On ICT from a public varsity of Bangladesh. Want to be a part-time freelancer web developer.
+		That was a little about me.</p>
+		<p><h5><b>Why Freelancing??</b></h5></p>
+		<p><b>Passion & Love</b> might be the correct answer.Passion is something that you really want to do from heart either it gives you money or not. Programming is like my passion and website developing  can be introdced as love.
+		Maybe,that's why I am trying to be a freelancer Web developer, to utilize my coding and other skills in an effective way and to give my passion a chacnce to become my career. 
+		</p>
+		<ul>
+			<h4>Profile:</h4>
+			<li>Self-Learner.</li>
+			<li>Dependable problem solver.</li>
+			<li>Have good problem solving capability with analytic thinking.</li>
+			<li>Thorough knowledge of Object Oriented   Analysis.</li>
+			<li>Keen on learning new skills.</li>
+			<li>Hard-working.</li>
+			<li>Excellent knowledge of Core subjects.</li>
+			</ul>
+		
+	</div>
+</div>
+</div>
+<hr>
+<!--four colmn-->
+
+<div  class="container-fluid">
+	<div class="row">
+		<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+		<div id="skills" class="col-12 "><h2 style="text-align: center;">Skills</h2>
+		<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+		</div>
+		<div  class="col-sm-12 col-md-6 col-lg-4 skills">
+				<h1>Html</h1>
+		</div>
+		<div  class="col-sm-12 col-md-6 col-lg-4 skills">
+			<h1>Css</h1>
+		</div>
+		<div  class="col-sm-12 col-md-6 col-lg-4 skills">
+		<h1>Bootstrap</h1>
+		</div>
+		<div  class="col-sm-12 col-md-6 col-lg-4 skills">
+		<h1>Javascript</h1>
+		</div>
+		<div  class="col-sm-12 col-md-6 col-lg-4 skills">
+		<h1>Core PHP</h1>
+		</div>
+		<div  class="col-sm-12 col-md-6 col-lg-4 skills">
+		<h1>mysqli</h1>
+		</div>
+		
+	</div>
+</div>
+
+</div>
+<hr>
+<!--new-->
+<div  class="container-fluid">
+	<div class="row">
+		<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+		<div id="prjct" class="col-12 "><h2 style="text-align: center;">Projects</h2>
+		<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<a href="#" style="color: black; text-decoration: none;"><div class="card">
+						<img src="img/prjct1-1.PNG" class="card-imd-top">
+						<div class="card-body">
+							<div class="card-title">A Demo Railway Management Website</div>
+						</div>
+					
+
+					</div></a>
+				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<img src="img/prjct2.PNG" class="card-imd-top">
+						<div class="card-body">
+							<div class="card-Text">A Demo Varsity website</div>
+						</div>
+					
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<hr>
+<!--new-->
+<div  class="container-fluid">
+	<div class="row">
+		<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+		<div class="col-12 "><h2 style="text-align: center;">Resources</h2>
+		<hr style="width: 8%; border: 2px solid black; border-radius: 80%;">
+		</div>
+		<div id="rsrc"></div>
+		<div class="col-12"> <ul class="list-group ">
+			<li class="list-group-item">
+				<h4>HTML, CSS</h4>
+				<a href="www.w3school.com">W3shool</a>
+			</li>
+			<li class="list-group-item">
+				<h4>Bootstrap</h4>
+				<a href="www.w3school.com">W3shool</a><br>
+				<a href="https://youtu.be/9cKsq14Kfsw">An easy and effective video on bootstrap for Beginner</a>
+			</li>
+			<li class="list-group-item">
+				<h4>JavaScript</h4>
+				<a href="https://youtu.be/xpZLS6R91rQ">JavaScript Tutorial for Beginners--EJ Media</a><br>
+				
+			</li>
+			
+		  </ul> </div>
+
+
+
+	</div>
+
+</div>
+<hr>
+<br>
+<br>
+<!--Footer-->
+<div id="cntct" class="container-fluid" style="background-color: black; color: rgb(236, 228, 215);">
+	<div class="row">
+		
+	<div class="col-12">
+		
+		
+		<h5 style=" text-align: center;">
+		<i class="fab fa-facebook" style="font-size:34px;color:white;margin:5px;" ></i>
+		<i class="fab fa-google" style="font-size:34px;color:white;margin:5px;" ></i>
+		<i class="fab fa-github" style="font-size:34px;color:white;margin:5px;" ></i>
+		</h5><!--a koi-->
+		<h6>Different pics are collected form Internet.</h6>
+	</div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  
+</body>
+</html>
+
+    © 2020 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
