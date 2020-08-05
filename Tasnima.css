@@ -60,7 +60,7 @@ ul {
  {
 	 0%
 	{
-		background-image:url('bg5.jpg');
+		background-image:url('bg1.jpg');
 	}	
 	 /*100%
 	 {
@@ -69,31 +69,31 @@ ul {
 	 
 	 25%
 	{
-		background-image:url('bg3.jpg');
+		background-image:url('bg1.jpg');
 	}	
 	 25.01%
 	{
-		background-image:url('bg1.jpg');
+		background-image:url('bg5.jpg');
 	}	
 	 50%
 	{
-		background-image:url('bg1.jpg');
+		background-image:url('bg5.jpg');
 	}	
 	 50.01%
 	{
-		background-image:url('bg5.jpg');
+		background-image:url('bg2.jpg');
 	}	
 	75%
 	{
-		background-image:url('bg5.jpg');
+		background-image:url('bg2.jpg');
 	}	
 	 75.01%
 	{
-		background-image:url('bg2.jpg');
+		background-image:url('bg3.jpg');
 	}	
 	 100%
 	{
-		background-image:url('bg2.jpg');
+		background-image:url('bg3.jpg');
 	}	
 	 
 	 
