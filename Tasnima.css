@@ -57,37 +57,24 @@ ul {
     color:rgb(0,0,1);
 }
 @keyframes slide
- {
+ {	
 	 0%
 	{
-		background-image:url('bg1.jpg');
+		background-image:url('bg5.jpg');
 	}	
-	 /*100%
-	 {
-	 background-image:url(bg5.jpg);
-	 }*/
-	 
-	 25%
-	{
-		background-image:url('bg1.jpg');
-	}	
-	 25.01%
+	 33%
 	{
 		background-image:url('bg5.jpg');
 	}	
-	 50%
-	{
-		background-image:url('bg5.jpg');
-	}	
-	 50.01%
+	 33.01%
 	{
 		background-image:url('bg2.jpg');
 	}	
-	75%
+	66%
 	{
 		background-image:url('bg2.jpg');
 	}	
-	 75.01%
+	 66.01%
 	{
 		background-image:url('bg3.jpg');
 	}	
